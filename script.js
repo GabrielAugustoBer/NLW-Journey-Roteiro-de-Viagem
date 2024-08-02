@@ -1,4 +1,4 @@
-//object {}
+//object
 const atividade = {
     nome: "Almoço",
     data: new Date("2024-08-02  11:00"),
