@@ -13,27 +13,9 @@ const formatador = (data) => {
     }
 };
 
-//object
-const atividade = {
-    nome: "Almoço",
-    data: new Date("2024-08-02  11:00"),
-    finalizada: false
-};
-
 // array
 let atividades = [
-    atividade,
-    {
-        nome: 'Academia em grupo',
-        data: new Date("2024-08-10  15:00"),
-        finalizada: false
-    },
-    {
-        nome: 'Gaming session',
-        data: new Date("2024-08-25  20:00"),
-        finalizada: false
-    },
-
+    
 ]
 
 // arrow function

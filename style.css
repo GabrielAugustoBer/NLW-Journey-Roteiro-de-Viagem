@@ -96,6 +96,11 @@ section {
     gap: 10px;
 }
 
+section p {
+    text-align: center;
+    opacity: 70%;
+}
+
 section input[type="checkbox"] { 
     position: absolute;
     inset: 0;
@@ -111,7 +116,10 @@ section .card-bg {
 }
 
 section .card-bg:has(:checked) {
-    outline: 1px solid yellowgreen;
+    outline: 0.5px solid yellowgreen;
+    font-style: italic;
+    text-decoration: line-through;
+    opacity: 70%;
 }
 
 section .card-bg:has(:checked) .active,
