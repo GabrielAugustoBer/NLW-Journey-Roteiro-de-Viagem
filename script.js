@@ -15,7 +15,16 @@ const formatador = (data) => {
 
 // array
 let atividades = [
-    
+    {
+        nome: 'Academia em Grupo',
+        data: new Date("2024-08-10  15:00"),
+        finalizada: true
+    },
+    {
+        nome: 'Almoço com familia',
+        data: new Date("2024-08-25  12:00"),
+        finalizada: false
+    },
 ]
 
 // arrow function
